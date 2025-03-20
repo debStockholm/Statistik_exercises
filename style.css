@@ -1,0 +1,56 @@
+body {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+p,
+pre {
+  line-height: 150%;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #999;
+}
+
+thead {
+  background-color: #ddd;
+}
+
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 3px;
+}
+
+p {
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: 12px;
+}
